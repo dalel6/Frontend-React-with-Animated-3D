@@ -1,4 +1,4 @@
-// App.js
+// cube.jsx
 import React, { useEffect, useRef } from 'react';
 import { Application } from '@splinetool/runtime';
 import './cube.css';  // Import the CSS file
