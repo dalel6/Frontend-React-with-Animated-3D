@@ -1,18 +1,24 @@
-// SplineComponent.jsx
+// cube.jsx
 import React, { useEffect, useRef } from 'react';
 import { Application } from '@splinetool/runtime';
+import './cube.css';  // Import the CSS file
 
-const SplineComponent = () => {
-    const canvasRef = useRef(null);
+const Cube1 = () => {
+  const canvasRef = useRef();
 
-    useEffect(() => {
-        const canvas = canvasRef.current;
-        const app = new Application(canvas);
-        app.load('https://prod.spline.design/qiHbv04Y05w7J3Nq/scene.splinecode');
-    }, []);
+  useEffect(() => {
+    const canvas = canvasRef.current;
+    const app = new Application(canvas);
+    app.load('https://prod.spline.design/qiHbv04Y05w7J3Nq/scene.splinecode');
 
-    return <canvas ref={canvasRef} style={{ width: '100%', height: '100%' }}></canvas>;
+  }, []);
+
+  return (
+    <div className='first_section'>
+      {/* Canvas Element for Spline Scene */}
+      <canvas ref={canvasRef}></canvas>
+    </div>
+  );
 };
 
-export default SplineComponent;
-
+export default Cube1;
