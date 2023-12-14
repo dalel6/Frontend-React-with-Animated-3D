@@ -22,22 +22,22 @@ const Navbar = () => {
             </li>
             <li>
               <a href="">
-                <span>About</span>
+                <span>AI Product</span>
               </a>
             </li>
             <li>
               <a href="">
-                <span>Projects</span>
+                <span>Smart Cities</span>
               </a>
             </li>
             <li>
               <a href="">
-                <span>Services</span>
+                <span>Cave Offering</span>
               </a>
             </li>
             <li>
               <a href="">
-                <span>Blog</span>
+                <span>XR Product</span>
               </a>
             </li>
             <button className="button">Contact me</button>

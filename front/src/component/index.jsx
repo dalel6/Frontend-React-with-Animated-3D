@@ -1,19 +1,31 @@
-// index.jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
-import SplineComponent from './cube'; // Adjust the path as necessary
+import IInterface from './home'; // Adjust the path as necessary
 import Navbar from './navbar'; // Add this line
-import YourComponent from './articles';
-
+import Yourimage from './metaverse';
+import Articles from './articles';
+import Smart from './smart_cities';
+import SplitScreen from './contact';
+    
 const App = () => {
     return (
         <div>
             <Navbar />
-            <div >
-                <SplineComponent />
-            </div>
             <div>
-                <YourComponent />
+                <IInterface />
+            </div>
+            
+            <div>
+                <Articles />
+                
+            </div>
+            <p> <br /> <br /></p>
+            <div>
+                <Smart />
+            </div>
+            
+            <div>
+               <SplitScreen /> 
             </div>
         </div>
     );

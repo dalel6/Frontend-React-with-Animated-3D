@@ -13,7 +13,7 @@ body {
   @media screen and (min-width: 992px) and (max-width: 1439px) {
     max-width: 1279px !important;
     padding: 0 !important;
-    margin: 0 80px !important;
+    margin: 0 20px !important;
     width: auto !important;
   }
 
@@ -24,17 +24,27 @@ body {
     width: auto !important;
   }
 }
+.image-container {
+  
+  flex:1;
+  object-fit: cover;
+  
+  }
 
 .gradient-cards {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 32px;
-  padding: 30px;
 
-  @media screen and (max-width: 991px) {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px; /* Adjust the gap value to your preferred spacing */
+  padding: -1px;
+  position: relative;
+  left: 0px;
+
+  @media screen and (max-width: 691px) {
     grid-template-columns: 1fr;
   }
 }
+
 
 .container-title {
   text-align: center;
@@ -47,30 +57,36 @@ body {
 }
 
 .card {
-  max-width: 550px;
-  border: 0;
+  max-width: 975px; 
+
+
   width: 100%;
-  margin-inline: auto;
+  
 }
 
 .container-card {
   position: relative;
+  height:300px;
+  
   border: 2px solid transparent;
   background: linear-gradient(71deg, #080509, #1a171c, #080509);
   background-clip: padding-box;
   border-radius: 45px;
-  padding: 40px;
+  padding: 20px; /* Adjust the padding for a more balanced look */
 
   img {
-    margin-bottom: 32px;
+    margin-bottom: 16px; /* Adjust the margin for the image */
   }
 }
+
 
 .bg-green-box,
 .bg-white-box,
 .bg-yellow-box,
 .bg-blue-box {
   position: relative;
+
+  
 }
 
 .bg-green-box::after,
