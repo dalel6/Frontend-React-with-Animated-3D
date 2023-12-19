@@ -5,6 +5,7 @@ import XRProduct from "./component/XRProducts/XRProduct";
 import Home from "./component/Home/Home";
 import Contact from "./component/Contact/Contact";
 
+
 const App = () => {
 	return (
 		<div>
@@ -26,6 +27,7 @@ const App = () => {
 			<div>
 				<XRProduct />
 			</div>
+		
 			{/* <div>
 				<SplitScreen />
 			</div> */}
