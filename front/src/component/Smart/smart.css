@@ -1,94 +1,48 @@
-.smart {
-    position: relative;
-    width: 100%;
-    height: 100vh; /* Adjust height as needed */
-    overflow: hidden;
-  }
+.smart-cities-container {
+  position: relative;
+
+  overflow: hidden;
   
-  .smart video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    opacity: 1;
-  }
+  opacity:1;
+  left: -1px;
+  border: 2px solid transparent;
+  background: linear-gradient(71deg, #080509, #1a171c, #080509);
+  background-clip: padding-box;
+  border-radius: 45px;
+  padding: 20px; /* Adjust the padding for a more balanced look */
   
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.6); /* Adjust color and opacity as needed */
-    z-index: 1;
-    opacity: 1;
-  }
+  width: 50%;
+  height: 120px;
+ 
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.smart-cities-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+ 
+   
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 1); 
   
-  .smartcities {
-    position: relative;
-    z-index: 2;
-    top: 40%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-    max-width: 960px; /* Maximum width of the content */
-    margin: 0 auto;
-    color: white;
-  }
-  
-  .smartcities h1 {
-    font-size: 3em; /* Large text for the heading */
-    margin-bottom: 0.5em;
-  }
-  
-  .smartcities p {
-    font-size: 1.5em; /* Smaller text for the paragraph */
-    margin-bottom: 2em;
-  }
-  
-  .nav {
-    position: relative;
-    z-index: 2;
-    top: 5%;
-    left: 15%;
-    transform: translate(-50%, -50%);
-    max-width: 960px; /* Maximum width of the content */
-    margin: 0 auto;
-    color: white;
-  }
-  
-  .smartcities button {
-    padding: 10px 20px;
-    font-size: 1em;
-    color: white;
-    background-color: transparent;
-    border: 2px solid white;
-    border-radius: 45px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .smartcities button:hover {
-    background-color: white;
-    color: black;
-  }
-  
-  /* Media Query for smaller screens */
-  @media only screen and (max-width: 768px) {
-    .smartcities {
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-  
-    .nav {
-      top: 2%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-  }
+}
+
+.smart-cities-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+
+}
+
+
+
   
 
   

@@ -6,12 +6,13 @@ const Smart = () => {
 		alert("Button clicked!");
 	};
 	return (
-		<div className="smart">
-			<div className="overlay"></div>
+		<div className="smart-cities-container">
+			<div className="smart-cities-video">
 
 			<video src={cities} autoPlay loop muted />
+			</div>
 
-			<div className="smartcities">
+			<div className="smart-cities-content">
 				<h1>Smart cities offering</h1>
 				<p>
 					Edge AI by PNY Technologies is at the forefront of AI and data analytics,

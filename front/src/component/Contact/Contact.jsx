@@ -2,9 +2,9 @@ import "./contact.css";
 
 const contactInfo = {
 	address: "25, Lorem Lis Street, Orange California, US",
-	phone: "800 123 3456",
-	email: "info@htmlstream.com",
-	tollFree: "800 123 3456",
+	phone: "+97471201352",
+	email: "ceo@iristechnologies.info",
+	tollFree: "+97471201352",
 };
 
 const SplitScreen = () => {

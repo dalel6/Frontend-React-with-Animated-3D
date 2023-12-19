@@ -10,9 +10,9 @@ const Navbar = () => {
 						<a href="" className="logo">
 							<img className="h-16" src="https://i.ibb.co/6Yxs70d/2021-10-26-23h27-03.png" alt="" />
 							<span className="ml-4 uppercase font-black">
-								clara
+								IRIS
 								<br />
-								thella
+								TECHNOLOGIES
 							</span>
 						</a>
 
