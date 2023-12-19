@@ -34,7 +34,7 @@ body {
 .gradient-cards {
   display: grid;
 
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 10px; /* Adjust the gap value to your preferred spacing */
   padding: -1px;
   position: relative;
@@ -135,4 +135,27 @@ body {
   color: hsla(0, 0%, 100%, 0.5);
   font-size: 16px;
   max-width: 470px;
+}
+.container-card {
+  
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.bg-green-box {
+  background-image: url('./chat.png');
+  /* ... other styling ... */
+}
+
+.bg-white-box {
+  background-image: url('./drone.png');
+ 
+}
+.bg-blue-box {
+  background-image: url('./satellite.png');
+  
+}
+.bg-yellow-box {
+  background-image: url('./A.png');
 }

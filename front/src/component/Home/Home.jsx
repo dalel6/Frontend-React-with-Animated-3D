@@ -1,5 +1,5 @@
 import "./AIInterface.css"; // Import your CSS file for styling
-import Cube1 from "./animation"; // Import your technology image
+import Cube1 from "../Animation/Animation"; // Import your technology image
 
 const AIInterface = () => {
 	return (
