@@ -11,6 +11,7 @@ const Smart = () => {
 
 			<video src={cities} autoPlay loop muted />
 			</div>
+			<div className="content-card" >
 
 			<div className="smart-cities-content">
 				<h1>Smart cities offering</h1>
@@ -19,6 +20,7 @@ const Smart = () => {
 					<br /> offering a comprehensive range of products and solutions.
 				</p>
 				<button onClick={handleClick}>Learn More</button>
+			</div>
 			</div>
 		</div>
 	);
