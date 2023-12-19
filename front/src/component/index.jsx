@@ -6,7 +6,7 @@ import Yourimage from './metaverse';
 import Articles from './articles';
 import Smart from './smart_cities';
 import SplitScreen from './contact';
-import XR_product from './XR_prodect'   ;
+import XR_Product from './XR_Product'   ;
 const App = () => {
     return (
         <div>
@@ -16,15 +16,16 @@ const App = () => {
             </div>
             
             <div>
-                <Articles />
+            <Smart />
                 
             </div>
             <p> <br /> <br /></p>
             <div>
-                <Smart />
+            <Articles />
+                
             </div>
             <div>
-                <XR_product />
+                <XR_Product />
             </div>
             <div>
                <SplitScreen /> 

@@ -13,9 +13,7 @@ const Smart = () => {
         <div className="overlay"></div>
         
         <video src={cities} autoPlay loop muted />
-        <div className='nav'>
-        <Navbar  />
-        </div>
+       
         <div className="smartcities">
         
             <h1>Smart cities offering</h1>
