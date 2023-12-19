@@ -31,11 +31,9 @@ const App = () => {
 							>
 								<video
 									style={{
-										
 										opacity: 0.6,
 										width: "120%",
 										height: "120%",
-							
 									}}
 									src={cities}
 									autoPlay
@@ -58,16 +56,26 @@ const App = () => {
 									color: "black",
 									justifyContent: "space-around",
 								}}
-								className="smart-cities-offering"
 							>
-								<div>
+								<div
+									style={{
+										marginRight: "30px",
+									}}
+								>
 									<h1>Smart cities offering</h1>
 									<p>
 										Edge AI by PNY Technologies is at the forefront of AI and data analytics,
 										<br /> offering a comprehensive range of products and solutions.
 									</p>
 								</div>
-								<button onClick={() => {}}>Learn More</button>
+								<button
+									style={{
+										marginRight: "30px",
+									}}
+									onClick={() => {}}
+								>
+									Learn More
+								</button>
 							</div>
 						);
 					}}
@@ -75,22 +83,21 @@ const App = () => {
 			</div>
 			<div>
 				<SmallBigCards
+					right
 					SmallCard={() => {
 						return (
 							<div
 								style={{
 									width: "100%",
 									backgroundColor: "black",
-									left: 80%,
+									left: "80%",
 								}}
 							>
 								<video
 									style={{
-										
 										opacity: 0.6,
 										width: "120%",
 										height: "120%",
-							
 									}}
 									src={product}
 									autoPlay
@@ -115,14 +122,25 @@ const App = () => {
 								}}
 								className="smart-cities-offering"
 							>
-								<div>
+								<div
+									style={{
+										marginLeft: "30px",
+									}}
+								>
 									<h1>Smart cities offering</h1>
 									<p>
 										Edge AI by PNY Technologies is at the forefront of AI and data analytics,
 										<br /> offering a comprehensive range of products and solutions.
 									</p>
 								</div>
-								<button onClick={() => {}}>Learn More</button>
+								<button
+									style={{
+										marginLeft: "30px",
+									}}
+									onClick={() => {}}
+								>
+									Learn More
+								</button>
 							</div>
 						);
 					}}
@@ -134,9 +152,6 @@ const App = () => {
 			</p>
 			<div>
 				<Articles />
-			</div>
-			<div>
-				<XRProduct />
 			</div>
 		</div>
 	);
