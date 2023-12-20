@@ -143,19 +143,5 @@ body {
   
 }
 
-.bg-green-box {
-  background-image: url('./chat.png');
-  /* ... other styling ... */
-}
 
-.bg-white-box {
-  background-image: url('./drone.png');
- 
-}
-.bg-blue-box {
-  background-image: url('./satellite.png');
-  
-}
-.bg-yellow-box {
-  background-image: url('./A.png');
-}
+

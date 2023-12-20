@@ -10,7 +10,7 @@ const contactInfo = {
 const SplitScreen = () => {
 	return (
 		<div className="split-container">
-			<div className="split left">
+			<div className="split left1">
 				<h1>GET IN TOUCH</h1>
 				<div className="underline"></div>
 				<p>
@@ -30,7 +30,7 @@ const SplitScreen = () => {
 					{contactInfo.tollFree}
 				</p>
 			</div>
-			<div className="split right" style={{ backgroundImage: `url('./map.png')` }}>
+			<div className="split right1" style={{ backgroundImage: `url('./map.png')` }}>
 				{/* Additional content for the right side here */}
 			</div>
 		</div>

@@ -5,6 +5,7 @@ import Articles from "./component/Articles/articles";
 import SmallBigCards from "./component/SmallBigCards/SmallBigCards";
 import cities from "./assets/cities.mp4";
 import product from "./assets/product.mp4";
+import Contact from "./component/Contact/Contact";
 import "./App.css";
 
 const App = () => {
@@ -20,6 +21,11 @@ const App = () => {
 				<Home />
 			</div>
 			<div>
+				<h1 style={{
+									width: "100%",
+									backgroundColor: "bleu",
+									textAlign: "center",
+								}}> Projects And Services</h1>
 				<SmallBigCards
 					SmallCard={() => {
 						return (
@@ -127,10 +133,13 @@ const App = () => {
 										marginLeft: "30px",
 									}}
 								>
-									<h1>Smart cities offering</h1>
+									<h1>Iris Technologies - 
+										<br/>Website and Services</h1>
 									<p>
-										Edge AI by PNY Technologies is at the forefront of AI and data analytics,
-										<br /> offering a comprehensive range of products and solutions.
+									Iris Technologies is a cutting-edge software development
+									<br/> and consulting company, specializing in a broad range of services. 
+									<br/>Our primary focus is on delivering innovative solutions tailored to our clients' unique needs
+										
 									</p>
 								</div>
 								<button
@@ -152,6 +161,12 @@ const App = () => {
 			</p>
 			<div>
 				<Articles />
+			</div>
+			<div>
+				<XRProduct />
+			</div>
+			<div>
+				<Contact />
 			</div>
 		</div>
 	);

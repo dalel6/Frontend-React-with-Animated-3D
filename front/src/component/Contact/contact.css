@@ -11,14 +11,14 @@
     overflow: hidden;
 }
 
-.left {
+.left1 {
     background-color: black;
     padding: 5%; /* Adjust padding using percentage for responsiveness */
     color: white;
     /* Additional styling for the text side */
 }
 
-.left p {
+.left1 p {
     color: white;
     margin-top: 2%; /* Adjust margin using percentage for responsiveness */
     position: relative;
@@ -26,11 +26,11 @@
     left: 2%; /* Adjust left using percentage for responsiveness */
 }
 
-.left h1 {
+.left1 h1 {
     color: white;
 }
 
-.right {
+.right1 {
     background-color: #ddd;
 }
 
@@ -51,12 +51,12 @@
         width: 100%;
     }
 
-    .left {
+    .left1 {
         padding: 10%; /* Adjust padding for smaller screens */
         text-align: center; /* Center the text */
     }
 
-    .left p {
+    .left1 p {
         position: static;
         margin-top: 5%; /* Adjust margin for smaller screens */
         top: 0; /* Reset top position */

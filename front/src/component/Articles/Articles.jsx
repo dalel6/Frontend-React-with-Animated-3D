@@ -10,7 +10,7 @@ const Articles = () => {
 
 			<div className="gradient-cards">
 				<div className="card">
-					<div className="container-card bg-green-box">
+					<div className="container-card bg-green-box" style={{ backgroundImage: 'url("./claim.png")' }}>
 						<p className="card-title">Smart Claim</p>
 						<p className="card-description">
 							An AI solution for automating insurance claims, enhancing efficiency and accuracy.
@@ -22,7 +22,7 @@ const Articles = () => {
 				</div>
 
 				<div className="card">
-					<div className="container-card bg-white-box">
+					<div className="container-card bg-white-box" style={{ backgroundImage: 'url("./survey.png")' }}>
 						<p className="card-title">Smart Surveyor</p>
 						<p className="card-description">
 							Uses AI for precise surveying in various industries, ensuring data accuracy.
@@ -34,7 +34,7 @@ const Articles = () => {
 				</div>
 
 				<div className="card">
-					<div className="container-card bg-yellow-box">
+					<div className="container-card bg-yellow-box"  style={{ backgroundImage: 'url("./garage.png")' }}>
 						<p className="card-title">Smart Garage</p>
 						<p className="card-description">
 							AI-powered tool for automotive maintenance, offering smart diagnostics and service
@@ -45,7 +45,7 @@ const Articles = () => {
 				</div>
 
 				<div className="card">
-					<div className="container-card bg-blue-box">
+					<div className="container-card bg-blue-box" style={{ backgroundImage: 'url("./accessoires.png")' }}>
 						<p className="card-title">Car Assessor</p>
 						<p className="card-description">
 							An AI application for accurate car assessment, aiding in valuation and condition reporting.
@@ -55,7 +55,7 @@ const Articles = () => {
 					</div>
 				</div>
 				<div className="card">
-					<div className="container-card bg-green-box">
+					<div className="container-card bg-green-box"  style={{ backgroundImage: 'url("./drone.png")' }}>
 						<p className="card-title">Drone Analysis</p>
 						<p className="card-description">
 							Leverages AI for analyzing drone-captured data, applicable in surveillance, mapping, and
@@ -65,7 +65,7 @@ const Articles = () => {
 					</div>
 				</div>
 				<div className="card">
-					<div className="container-card bg-white-box">
+					<div className="container-card bg-white-box"  style={{ backgroundImage: 'url("./satellite.png")' }}>
 						<p className="card-title">Satellite Imaging</p>
 						<p className="card-description">
 							AI-based analysis of satellite images for detailed earth observation and insights. Useful
@@ -75,7 +75,7 @@ const Articles = () => {
 					</div>
 				</div>
 				<div className="card">
-					<div className="container-card bg-yellow-box">
+					<div className="container-card bg-yellow-box" style={{ backgroundImage: 'url("./chat.png")' }}>
 						<p className="card-title">AI Chatbot</p>
 						<p className="card-description">
 							{" "}
@@ -86,7 +86,7 @@ const Articles = () => {
 					</div>
 				</div>
 				<div className="card">
-					<div className="container-card bg-blue-box">
+					<div className="container-card bg-blue-box"  style={{ backgroundImage: 'url("./digital.png")' }}>
 						<p className="card-title">Digital Onboarding</p>
 						<p className="card-description">
 							Streamlines the digital onboarding process using AI, improving user experience and

@@ -1,67 +1,62 @@
+.products {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 15px;
+  padding: -1px;
+  position: relative;
+  left: -5px;
+}
 
-  .products {
+.intelligent-store .text {
+  color: white;
+  margin-bottom: 20px;
+  width: 75%; /* Adjust as needed */
+}
+.product1 {
+
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-
-    
-    
+    align-items: center;
+    justify-content: center
   }
- 
-  
- 
-  .intelligent-store .text {
-    margin-bottom: 0;
-    position: relative;
-    /* Adjust the percentage as needed */
-    color: black;
- 
-    /* Adjust the top margin as needed */
-    margin-bottom: 20px; /* Adjust the bottom margin as needed */
-  
-  }
-  .intelligent-store .product1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.product2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
 
 
-  }
-  .intelligent-store .product2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-
-
-  }
-  .intelligent-store .product3 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-
-
-  }
 
   
+  .intelligent-store text {
+    font-size: 10px;
+    padding-left: 20px;
+    position: 'relative';
+    left: '20%' 
+  }
+
+.intelligent-store img {
+  width: 40%;
+  border-radius: 1rem;
+}
+/* XRproduct.css */
+
+/* Add styling for the h1 elements inside the XRProduct component */
+.intelligent-store .products .text h1 {
+  font-size: 24px; /* Adjust the font size as needed */
+  color: white; /* Set the text color */
+  
+}
+.product3 {
+  display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+
+/* Media Query for smaller screens */
+@media only screen and (max-width: 768px) {
   .intelligent-store img {
-    
-    width: 20%; 
-    
-    border-radius: 1rem;
-    
+    width: 50%; /* Adjust as needed for smaller screens */
   }
-  
-  /* Media Query for smaller screens */
-  @media only screen and (max-width: 768px) {
-    .intelligent-store .text {
-      left: 0;
-    }
-  
-  
-  
-    .intelligent-store img {
-      left: 0;
-      width: 20%;
-    }
-  }
-  
+}
