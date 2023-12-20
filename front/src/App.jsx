@@ -6,7 +6,10 @@ import SmallBigCards from "./component/SmallBigCards/SmallBigCards";
 import cities from "./assets/cities.mp4";
 import product from "./assets/product.mp4";
 import Contact from "./component/Contact/Contact";
+import Cave from "./component/Cave/Cave";
 import "./App.css";
+import Metaverse from "./component/Metaverse/Metaverse";
+
 
 const App = () => {
 	return (
@@ -25,6 +28,7 @@ const App = () => {
 									width: "100%",
 									backgroundColor: "bleu",
 									textAlign: "center",
+									color: "#646cff",
 								}}> Projects And Services</h1>
 				<SmallBigCards
 					SmallCard={() => {
@@ -162,12 +166,40 @@ const App = () => {
 			<div>
 				<Articles />
 			</div>
+			<p>
+				{" "}
+				<br /> <br />
+			</p>
+
+		
 			<div>
-				<XRProduct />
+				<Cave />
 			</div>
+			<p>
+				{" "}
+				<br /> <br />
+			</p>
 			<div>
+			<h1 style={{
+									width: "100%",
+									backgroundColor: "bleu",
+									textAlign: "center",
+									color: "#646cff",
+								}}> METAVERSE AND AUGMENTED REALITY</h1>
+				<Metaverse />
+			</div>
+			<p>
+				{" "}
+				<br /> <br />
+			</p>
+			<p>
+				{" "}
+				<br /> <br />
+			</p>
+	<div>
 				<Contact />
 			</div>
+			
 		</div>
 	);
 };
