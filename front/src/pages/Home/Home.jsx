@@ -1,5 +1,4 @@
 import AiInterface from "../../component/AiInterface/AiInterface";
-import Navbar from "../../component/Navbar/Navbar";
 import SmallBigCards from "../../component/SmallBigCards/SmallBigCards";
 import cities from "../../assets/cities.mp4";
 import product from "../../assets/product.mp4";
