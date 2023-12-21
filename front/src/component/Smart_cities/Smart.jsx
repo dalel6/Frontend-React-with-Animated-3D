@@ -1,7 +1,7 @@
 
 
 import React from 'react';
-import cities from '../../assets/product.mp4';
+import cities from '../../assets/cities.mp4';
 import './smart.css'
 
 
@@ -22,9 +22,10 @@ const Smart = () => {
         <div className="smartcities">
        
             <h1>Iris Technologies -
-                <br/> Website and Services Description</h1>
-            <p>Iris Technologies is a cutting-edge software development and consulting company, specializing in a broad range of services.
-                <br /> Our primary focus is on delivering innovative solutions tailored to our clients' unique needs.
+                <br/> Smart cities offering</h1>
+            <p>Edge AI by PNY Technologies is at the forefront of AI and data analytics, 
+                <br/>offering a comprehensive range of products and solutions.
+               
              </p>
             <button onClick={handleClick}>Learn More</button>
                

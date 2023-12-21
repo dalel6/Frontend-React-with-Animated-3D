@@ -6,12 +6,8 @@ const Navbar = () => {
 		<nav>
 			<ul>
 				<a href="" className="logo">
-					<img className="h-16" src="https://i.ibb.co/6Yxs70d/2021-10-26-23h27-03.png" alt="" />
-					<span className="ml-4 uppercase font-black">
-						IRIS
-						<br />
-						TECHNOLOGIES
-					</span>
+					<img className="h-16" src="./logo.png" alt=""  style={{width:"800%"}}/>
+					
 				</a>
 
 				<li className="active">

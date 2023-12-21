@@ -6,6 +6,8 @@ import Articles from "../../component/Articles/articles";
 import Cave from "../../component/Cave/Cave";
 import Metaverse from "../../component/Metaverse/Metaverse";
 import Contact from "../../component/Contact/Contact";
+import XRProduct from "../../component/XRProducts/XRProduct";
+import Smartcities from "../../component/Smart_cities/Smartcities";
 
 const Home = () => {
 	return (
@@ -200,7 +202,28 @@ const Home = () => {
 				<br /> <br />
 			</p>
 			<div>
+				<div className="map" style={{      
+    width: "100%",
+    height: "100%",
+    opacity: "0.6",}}>
+		<img src = './map.jpg' alt=""  style = {{width: "100%",
+    height: "250px",
+    objectFit: "cover",}}></img>	</div>
 				<Contact />
+			</div>
+			<p>
+				{" "}
+				<br /> <br />
+			</p>
+			<p>
+				{" "}
+				<br /> <br />
+			</p>
+			<div>
+				<XRProduct />
+			</div>
+			<div>
+				<Smartcities />
 			</div>
 		</>
 	);

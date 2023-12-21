@@ -1,66 +1,45 @@
-.split-container {
+.contact-container {
     display: flex;
-    flex-wrap: wrap; /* Ensure items wrap to the next line on small screens */
-    width: 100%;
-     /* Adjust min-height as needed */
-    background: black; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000; /* Assuming a dark background */
+    padding: 20px; /* Adjust as needed */
+    color: #fff; /* Assuming white text */
 }
 
-.split {
-    flex: 1; /* Allow the split elements to grow and shrink as needed */
-    overflow: hidden;
+.contact-item {
+    display: flex;
+    align-items: center;
 }
 
-.left1 {
-    background-color: black;
-    padding: 5%; /* Adjust padding using percentage for responsiveness */
-    color: white;
-    /* Additional styling for the text side */
+.contact-item img {
+    margin-right: 10px;
+    width: 8%; /* Space between icon and text */
 }
 
-.left1 p {
-    color: white;
-    margin-top: 2%; /* Adjust margin using percentage for responsiveness */
-    position: relative;
-    top: 2%; /* Adjust top using percentage for responsiveness */
-    left: 2%; /* Adjust left using percentage for responsiveness */
+.contact-item.address {
+    flex-grow: 1; /* Allows the address to take up more space if needed */
+     /* Background color for the address box */
+    padding: 10px; /* Padding inside the address box */
+    margin-left: 20px; /* Space before the address box */
 }
 
-.left1 h1 {
-    color: white;
+.contact-item span {
+    white-space: nowrap; /* Prevents the text from wrapping */
 }
 
-.right1 {
-    background-color: #ddd;
-}
-
-.underline {
-    width: 50px;
-    height: 4px;
-    background-color: #6c7ae0;
-    margin-bottom: 2%; /* Adjust margin using percentage for responsiveness */
-}
-
-/* Add responsive design as needed */
-@media screen and (max-width: 768px) {
-    .split-container {
+/* Responsive adjustments if needed */
+@media (max-width: 768px) {
+    .contact-container {
         flex-direction: column;
     }
 
-    .split {
-        width: 100%;
+    .contact-item {
+        margin-bottom: 10px; /* Adds space between items when stacked */
     }
 
-    .left1 {
-        padding: 10%; /* Adjust padding for smaller screens */
-        text-align: center; /* Center the text */
-    }
-
-    .left1 p {
-        position: static;
-        margin-top: 5%; /* Adjust margin for smaller screens */
-        top: 0; /* Reset top position */
-        left: 0; /* Reset left position */
+    .contact-item.address {
+        margin-left: 0; /* Resets margin for mobile */
     }
 }
 

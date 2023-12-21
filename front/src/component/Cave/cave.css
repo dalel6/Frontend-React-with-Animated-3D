@@ -55,9 +55,8 @@
     line-height: 60px;
 }
 .h1-separator {
-    background: -webkit-linear-gradient(90deg, #ff5757, #8c52ff);
-    background: linear-gradient(90deg, #ff5757, #8c52ff);
-    
+  background: rgb(21,16,89);
+  background: linear-gradient(90deg, rgba(21,16,89,1) 0%, rgba(17,17,140,1) 28%, rgba(49,171,198,1) 100%, rgba(35,124,142,1) 100%);
     /* Making the text transparent so that the gradient shows through */
     -webkit-background-clip: text;
     background-clip: text;
@@ -73,7 +72,8 @@
 
         display: inline-block; /* Equivalent of 'inline-block' */
         border-radius: 0.25rem; /* Equivalent of 'rounded' (this is an estimate, Tailwind's 'rounded' uses specific pixel values) */
-        background-image: linear-gradient(to right, #ec4899, #f43f5e, #fbbf24); /* Gradients for 'bg-gradient-to-r', 'from-pink-500', 'via-red-500', 'to-yellow-500' */
+        background: rgb(21,16,89);
+background: linear-gradient(90deg, rgba(21,16,89,1) 0%, rgba(17,17,140,1) 28%, rgba(49,171,198,1) 100%, rgba(35,124,142,1) 100%); /* Gradients for 'bg-gradient-to-r', 'from-pink-500', 'via-red-500', 'to-yellow-500' */
         padding: 1px; /* Equivalent of 'p-[2px]' */
         outline: none; /* Part of 'focus:outline-none' */
         transition: color 0.3s ease, opacity 0.3s ease;

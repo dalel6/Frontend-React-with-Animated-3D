@@ -1,14 +1,12 @@
 import SecondTitle from "../SecondTitle/SecondTitle";
 import "./XRproduct.css"; // Import your CSS file for styling
-import Smart from "../Smart_cities/Smart";
+import Home_section from "./Home_section";
 
 const XRProduct = () => {
 	return (
 		<div id="intelligent-store" className="intelligent-store">
-			<p className="container-title">
-				<SecondTitle />
-			</p>
-			<Smart />
+		
+			<Home_section/>
 			<br/>
 			<br/>
 			<div className="products">

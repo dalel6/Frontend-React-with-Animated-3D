@@ -1,0 +1,53 @@
+.products {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+    padding: -1px;
+    position: relative;
+    left: -5px;
+  }
+  
+  .intelligent-store .text {
+    color: white;
+    margin-bottom: 20px;
+    width: 75%; /* Adjust as needed */
+  }
+
+  .product{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+  
+  
+  
+    
+    .intelligent-store text {
+      font-size: 10px;
+      padding-left: 20px;
+      position: 'relative';
+      left: '20%' 
+    }
+  
+  .intelligent-store img {
+    width: 40%;
+    border-radius: 1rem;
+  }
+  /* XRproduct.css */
+  
+  /* Add styling for the h1 elements inside the XRProduct component */
+  .intelligent-store .products .text h1 {
+    font-size: 24px; /* Adjust the font size as needed */
+    color: white; /* Set the text color */
+    
+  }
+
+  
+  /* Media Query for smaller screens */
+  @media only screen and (max-width: 768px) {
+    .intelligent-store img {
+      width: 50%; /* Adjust as needed for smaller screens */
+    }
+  }
+  

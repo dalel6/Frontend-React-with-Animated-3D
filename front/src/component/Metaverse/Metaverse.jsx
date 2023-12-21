@@ -41,7 +41,7 @@ const cardsData = [
   {
     id: 7,
     image: './social.png',
-    title: 'Social Interaction Spaces:',
+    title: 'Social Interaction Spaces',
     description: ' Embedding social spaces where users can interact with each other and the company representatives in real time, offering a more engaging and personal customer service experience.'
   },
   {
