@@ -37,6 +37,24 @@ const cardsData = [
     image: './avatar.png',
     title: 'Customizable Avatars',
     description: 'For a more personalized experience, websites can include options for users to create and customize their own avatars, which they can use to interact within the virtual space provided by the company.'
+  },
+  {
+    id: 7,
+    image: './social.png',
+    title: 'Social Interaction Spaces:',
+    description: ' Embedding social spaces where users can interact with each other and the company representatives in real time, offering a more engaging and personal customer service experience.'
+  },
+  {
+    id: 8,
+    image: './gamming.png',
+    title: 'Gamification Elements',
+    description: 'Integrating game-like elements such as challenges, quests, or rewards to make the browsing experience more engaging and entertaining.'
+  },
+  {
+    id: 9,
+    image: './3dbot.png',
+    title: 'AI Chatbots in 3D',
+    description: 'Advanced AI chatbots in 3D format can be embedded to assist visitors, providing information, answering queries, and guiding them through the website in an interactive way.'
   }
 ];
 
