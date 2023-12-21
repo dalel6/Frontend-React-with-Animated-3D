@@ -6,7 +6,7 @@ const Navbar = () => {
 		<nav>
 			<ul>
 				<a href="" className="logo">
-					<img className="h-16" src="./logo.png" alt=""  style={{width:"800%"}}/>
+					<img className="h-16" src="./logo.png" alt=""  style={{width:"200%"}}/>
 					
 				</a>
 
@@ -17,7 +17,7 @@ const Navbar = () => {
 				</li>
 				<li>
 					<a href="">
-						<span>AI Product</span>
+						<span>AI </span>
 					</a>
 				</li>
 				<li>
@@ -27,12 +27,17 @@ const Navbar = () => {
 				</li>
 				<li>
 					<a href="">
-						<span>Cave Offering</span>
+						<span>Software Services</span>
 					</a>
 				</li>
 				<li>
 					<a href="">
-						<span>XR Product</span>
+						<span>Cave </span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<span>Metaverse</span>
 					</a>
 				</li>
 				<button className="button">Contact Us</button>
