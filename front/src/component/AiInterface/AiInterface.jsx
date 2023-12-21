@@ -1,7 +1,7 @@
-import "./AIInterface.css"; // Import your CSS file for styling
+import "./AiInterface.css"; // Import your CSS file for styling
 import Cube1 from "../Animation/Animation"; // Import your technology image
 
-const AIInterface = () => {
+const AiInterface = () => {
 	return (
 		<div className="ai-interface">
 			<script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.391/build/spline-viewer.js"></script>
@@ -35,4 +35,4 @@ const AIInterface = () => {
 	);
 };
 
-export default AIInterface;
+export default AiInterface;

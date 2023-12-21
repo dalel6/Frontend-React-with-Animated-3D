@@ -1,6 +1,6 @@
 import "./SmallBigCards.css";
 
-function SmallBigCards({ SmallCard, BigCard, right }) {
+const SmallBigCards = ({ SmallCard, BigCard, right }) => {
 	return (
 		<div className="smallBigCardContainer">
 			<div className={`smallCard smallBigCard ${right ? "right" : "left"}`}>
@@ -11,6 +11,6 @@ function SmallBigCards({ SmallCard, BigCard, right }) {
 			</div>
 		</div>
 	);
-}
+};
 
 export default SmallBigCards;

@@ -1,4 +1,4 @@
-import "./contact.css";
+import "./Contact.css";
 
 const contactInfo = {
 	address: "25, Lorem Lis Street, Orange California, US",
