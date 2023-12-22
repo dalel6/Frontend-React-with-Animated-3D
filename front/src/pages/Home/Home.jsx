@@ -7,12 +7,12 @@ import Cave from "../../component/Cave/Cave";
 import Metaverse from "../../component/Metaverse/Metaverse";
 import Contact from "../../component/Contact/Contact";
 import XRProduct from "../../component/XRProducts/XRProduct";
-import Smartcities from "../../component/Smart_cities/Smartcities";
+import { Link } from "react-router-dom";
 
 const Home = () => {
 	return (
 		<>
-			<div>
+			<div id="Home">
 				<AiInterface />
 			</div>
 			<div>
@@ -75,14 +75,16 @@ const Home = () => {
 										<br /> offering a comprehensive range of products and solutions.
 									</p>
 								</div>
-								<button
+								<Link
+									to="/smart-cities"
 									style={{
 										marginRight: "30px",
+										textDecoration: "none",
 									}}
 									onClick={() => {}}
 								>
 									Learn More
-								</button>
+								</Link>
 							</div>
 						);
 					}}
@@ -201,14 +203,17 @@ const Home = () => {
 				{" "}
 				<br /> <br />
 			</p>
-			<div>
-				<div className="map" style={{      
-    width: "100%",
-    height: "100%",
-    opacity: "0.6",}}>
-		<img src = './map.jpg' alt=""  style = {{width: "100%",
-    height: "250px",
-    objectFit: "cover",}}></img>	</div>
+			<div id="contact">
+				<div
+					className="map"
+					style={{
+						width: "100%",
+						height: "100%",
+						opacity: "0.6",
+					}}
+				>
+					<img src="./map.jpg" alt="" style={{ width: "100%", height: "250px", objectFit: "cover" }}></img>{" "}
+				</div>
 				<Contact />
 			</div>
 			<p>
@@ -221,9 +226,6 @@ const Home = () => {
 			</p>
 			<div>
 				<XRProduct />
-			</div>
-			<div>
-				<Smartcities />
 			</div>
 		</>
 	);

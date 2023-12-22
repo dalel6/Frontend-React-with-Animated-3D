@@ -5,9 +5,15 @@ const Navbar = () => {
 	return (
 		<nav>
 			<ul>
-				<a href="" className="logo">
-					<img className="h-16" src="./logo.png" alt=""  style={{width:"200%"}}/>
-					
+				<a href="/#contact" className="logo">
+					<img
+						src="./logo.png"
+						alt=""
+						style={{
+							width: "200px",
+							height: "100px",
+						}}
+					/>
 				</a>
 
 				<li className="active">
