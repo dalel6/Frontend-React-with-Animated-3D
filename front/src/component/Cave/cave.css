@@ -7,7 +7,13 @@
     overflow: hidden; /* Prevent overflow */
     top : -1%;
   }
-  
+  @media screen and (max-width: 768px) {
+    .cave {
+      flex-direction: column; /* Stack the columns vertically on small screens */
+      align-items: center; /* Center align the items */
+    }
+
+  }
   .video-column {
     flex: 1;
     position: relative; /* Relative positioning for the video */

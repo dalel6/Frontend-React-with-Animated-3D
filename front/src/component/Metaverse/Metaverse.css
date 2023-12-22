@@ -216,3 +216,14 @@ body {
       margin-bottom: 16px;
     }
   }
+  @media screen and (max-width: 768px) {
+    .cards {
+      grid-template-columns: repeat(1, 1fr); /* One column layout for smaller screens */
+      grid-gap: 16px; /* Adjust grid gap for smaller screens */
+    }
+  
+    .card {
+      height: auto; /* Adjust height for mobile */
+      /* Add more styles if necessary for better mobile view */
+    }
+  }
