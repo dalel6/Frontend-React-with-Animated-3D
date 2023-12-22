@@ -9,6 +9,9 @@ const XRProduct = () => {
 		
 			<Home_section/>
 			<br/>
+			<p className="container-title" style={{color:"bleu"}}>
+				<SecondTitle />
+			</p>
 			
 			<br/>
 			<div className="products">

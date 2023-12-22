@@ -1,6 +1,7 @@
 import SecondTitle from "../../component/SecondTitle/SecondTitle";
 import "./Smartcities.css"; // Import your CSS file for styling
 import Smart from "./Smart";
+import FourthTitle from "./FourthTitle";
 
 
 const SmartCities = () => {
@@ -11,7 +12,7 @@ const SmartCities = () => {
 			<br/>
 			<br/>
 			<p className="container-title" style={{color:"bleu"}}>
-				<SecondTitle />
+				<FourthTitle/>
 			</p>
 			<div className="products">
 				<div className="product">
