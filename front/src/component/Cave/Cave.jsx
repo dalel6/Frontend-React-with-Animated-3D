@@ -27,7 +27,7 @@ const Cave = () => {
                       ) : (
                         'A Virtual Reality CAVE, acronym for Cave Automatic Virtual Environment, represents a specialized virtual reality space characterized by a cubic chamber devoid of physical obstructions.'
                       )}
-                      <button className="cavebutton" onClick={() => handleToggleShowMore('p1')}>
+                      <button style={{color:'cornflowerblue'}} className="cavebutton" onClick={() => handleToggleShowMore('p1')}>
                           {showMore.p1 ? 'Read Less' : 'Read More'}
                       </button>
                   </p>
@@ -39,7 +39,7 @@ const Cave = () => {
                       ) : (
                         ' Utilizing stereoscopic glasses within a VR CAVE facilitates the perception of three-dimensional graphics and images, seemingly suspended in the surrounding space. This immersive experience allows users to physically navigate around these virtual objects, closely examine them, and gain a comprehensive understanding of their appearance as if they were tangible entities'
                       )}
-                      <button className="cavebutton" onClick={() => handleToggleShowMore('p2')}>
+                      <button style={{color:'cornflowerblue'}} className="cavebutton" onClick={() => handleToggleShowMore('p2')}>
                           {showMore.p2 ? 'Read Less' : 'Read More'}
                       </button>
                   </p>
@@ -51,7 +51,7 @@ const Cave = () => {
                       ) : (
                           'With the increasing affordability and accessibility of VR CAVE technology, its implications extend significantly across both commercial and humanitarian domains, presenting captivating possibilities.'
                       )}
-                      <button className="cavebutton" onClick={() => handleToggleShowMore('p3')}>
+                      <button style={{color:'cornflowerblue'}}className="cavebutton" onClick={() => handleToggleShowMore('p3')}>
                           {showMore.p3 ? 'Read Less' : 'Read More'}
                       </button>
                   </p>
