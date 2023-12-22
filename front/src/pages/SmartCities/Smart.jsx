@@ -12,10 +12,10 @@ const Smart = () => {
 			<div className="smartcities">
 				<h1>
 					Iris Technologies -
-					<br /> Smart cities offering
+					<br /> Smart Cities 
 				</h1>
 				<p>
-					Edge AI by PNY Technologies is at the forefront of AI and data analytics,
+					Edge AI  is at the forefront of AI and data analytics,
 					<br />
 					offering a comprehensive range of products and solutions.
 				</p>

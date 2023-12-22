@@ -1,0 +1,32 @@
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+  
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-column h3 {
+    color: cornflowerblue;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+  
+}
+.copyright {
+	text-align: center;
+  padding: 5px;
+  font-size : small;
+  
+  color: cornflowerblue;
+}

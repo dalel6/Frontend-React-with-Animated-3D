@@ -8,6 +8,7 @@ import Metaverse from "../../component/Metaverse/Metaverse";
 import Contact from "../../component/Contact/Contact";
 
 import { Link } from "react-router-dom";
+import Footer from "../../component/Footer/Footer";
 
 const Home = () => {
 	return (
@@ -217,15 +218,12 @@ const Home = () => {
 					<img src="./map1.gif" alt="" style={{ width: "100%", height: "450px", objectFit: "cover" }}></img>{" "}
 				</div>
 				<Contact />
+				<hr  style={{width:"80%" , color: "teal"}}/>
 			</div>
-			<p>
-				{" "}
-				<br /> <br />
-			</p>
-			<p>
-				{" "}
-				<br /> <br />
-			</p>
+			<div>
+				<Footer/>
+			</div>
+		
 			
 		</>
 	);
