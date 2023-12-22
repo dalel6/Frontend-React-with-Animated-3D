@@ -1,21 +1,22 @@
-import SecondTitle from "../SecondTitle/SecondTitle";
+import SecondTitle from "../../component/SecondTitle/SecondTitle";
 import "./Smartcities.css"; // Import your CSS file for styling
 import Smart from "./Smart";
 
 const Smartcities = () => {
 	return (
 		<div id="intelligent-store" className="intelligent-store">
-			<p className="container-title">
-				<SecondTitle />
-			</p>
+			
 			<Smart/>
 			<br/>
 			<br/>
+			<p className="container-title" style={{color:"bleu"}}>
+				<SecondTitle />
+			</p>
 			<div className="products">
 				<div className="product">
 					<img src="./AI.jpg" alt="" />
-					<div className="text" style={{ position: 'relative', left: '10%'}} >
-						<h1  >1. AI and Deep Learning</h1>
+					<div className="text" style={{ position: 'relative', left: '10%' , color:'black'}} >
+						<h1  style={{color:'black'}}>1. AI and Deep Learning</h1>
 						 <p  >
 
 						 Specializing in AI and deep learning technologies, 
@@ -32,7 +33,7 @@ const Smartcities = () => {
 				<div className="product">
 					
 					<div className="text" style={{ position: 'relative', left: '10%'}} >
-						<h1>2. Embedded Solutions</h1>
+						<h1 style={{color:'black'}}>2. Embedded Solutions</h1>
 						<p>
 						Offering a wide range of embedded solutions, 
 							<br />
@@ -44,12 +45,12 @@ const Smartcities = () => {
 
 						</p>
 					</div>
-					<img src="./embeded.png" alt="" />
+					<img src="./embeded.jpg" alt="" />
 				</div>
 				<div className="product">
 					<img src="./visualution.jpg" alt="" />
 					<div className="text" style={{ position: 'relative', left: '10%'}}>
-						<h1>3. Professional Visualization</h1>
+						<h1 style={{color:'black'}}>3. Professional Visualization</h1>
 						<p> Edge AI excels in providing professional visualization solutions, <br />
 							<br /> including high-performance graphics cards and visualization software. <br />
 							<br /> These solutions are ideal for graphics-intensive applications<br/>
@@ -61,7 +62,7 @@ const Smartcities = () => {
 				<div className="product">
 					
 					<div className="text" style={{ position: 'relative', left: '10%'}} >
-						<h1>4. Data Center</h1>
+						<h1 style={{color:'black'}}>4. Data Center</h1>
 						<p>
 						They offer comprehensive data center solutions, 
 							<br />
@@ -73,13 +74,13 @@ const Smartcities = () => {
 
 						</p>
 					</div>
-					<img src="./data.png" alt="" />
+					<img src="./data.jpg" alt="" />
 				</div>
 			
 			<div className="product">
 					<img src="./network.jpg" alt="" />
 					<div className="text" style={{ position: 'relative', left: '10%'}} >
-						<h1  >5. Networking and Connectivity</h1>
+						<h1 style={{color:'black'}} >5. Networking and Connectivity</h1>
 						 <p  >
 
 						 Edge AI's networking and connectivity solutions
@@ -96,7 +97,7 @@ const Smartcities = () => {
 				<div className="product">
 					
 					<div className="text" style={{ position: 'relative', left: '10%'}} >
-						<h1>6. Servers and Workstations</h1>
+						<h1 style={{color:'black'}}>6. Servers and Workstations</h1>
 						<p>
 						The company also provides a range of servers and workstations, 
 							<br />
@@ -109,9 +110,9 @@ const Smartcities = () => {
 					<img src="./Server.jpg" alt="" />
 				</div>
 				<div className="product">
-					<img src="./accessoire.png" alt="" />
+					<img src="./accessoire.jpg" alt="" />
 					<div className="text" style={{ position: 'relative', left: '10%'}}>
-						<h1>7. Accessories and Components</h1>
+						<h1 style={{color:'black'}}>7. Accessories and Components</h1>
 						<p> In addition to their primary offerings, Edge AI also provides a variety of accessories and components,
 							<br />
 							<br />including cables, adapters, and power supplies, 

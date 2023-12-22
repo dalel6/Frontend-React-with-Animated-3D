@@ -1,4 +1,4 @@
-// Navbar.jsx
+
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -22,7 +22,7 @@ const Navbar = () => {
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="/#ai">
 						<span>AI </span>
 					</a>
 				</li>
@@ -37,16 +37,17 @@ const Navbar = () => {
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="/#cave">
 						<span>Cave </span>
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="/#metaverse">
 						<span>Metaverse</span>
 					</a>
 				</li>
-				<button className="button">Contact Us</button>
+				 <a href="/#contact" className="button"><span>Contact Us </span> </a>
+				
 			</ul>
 		</nav>
 	);

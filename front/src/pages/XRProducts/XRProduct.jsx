@@ -1,10 +1,11 @@
-import SecondTitle from "../SecondTitle/SecondTitle";
+import SecondTitle from "../../component/SecondTitle/SecondTitle";
 import "./XRproduct.css"; // Import your CSS file for styling
 import Home_section from "./Home_section";
 
 const XRProduct = () => {
 	return (
 		<div id="intelligent-store" className="intelligent-store">
+			<div className="nav" style={{backgroundColor:'white'}}></div>
 		
 			<Home_section/>
 			<br/>

@@ -14,6 +14,7 @@ const Cave = () => {
     <><div className='title'>
           <ThirdTitle />
       </div><div className="cave">
+        
               <div className="video-column">
                   <video style={{ opacity: 0.6 }} src={cave} autoPlay loop muted />
               </div>

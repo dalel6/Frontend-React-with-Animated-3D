@@ -6,7 +6,7 @@ import Articles from "../../component/Articles/articles";
 import Cave from "../../component/Cave/Cave";
 import Metaverse from "../../component/Metaverse/Metaverse";
 import Contact from "../../component/Contact/Contact";
-import XRProduct from "../../component/XRProducts/XRProduct";
+
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -69,9 +69,9 @@ const Home = () => {
 										marginRight: "30px",
 									}}
 								>
-									<h1>Smart cities offering</h1>
+									<h1>Smart Cities </h1>
 									<p>
-										Edge AI by PNY Technologies is at the forefront of AI and data analytics,
+										Edge AI  is at the forefront of AI and data analytics,
 										<br /> offering a comprehensive range of products and solutions.
 									</p>
 								</div>
@@ -137,8 +137,6 @@ const Home = () => {
 									}}
 								>
 									<h1>
-										Iris Technologies -
-										<br />
 										Website and Services
 									</h1>
 									<p>
@@ -149,14 +147,17 @@ const Home = () => {
 										unique needs
 									</p>
 								</div>
-								<button
+								<Link
+									to="/software-services"
 									style={{
 										marginLeft: "30px",
+										textDecoration: "none",
+										marginTop:"-20px"
 									}}
 									onClick={() => {}}
 								>
 									Learn More
-								</button>
+								</Link>
 							</div>
 						);
 					}}
@@ -166,7 +167,7 @@ const Home = () => {
 				{" "}
 				<br /> <br />
 			</p>
-			<div>
+			<div id="ai">
 				<Articles />
 			</div>
 			<p>
@@ -174,14 +175,14 @@ const Home = () => {
 				<br /> <br />
 			</p>
 
-			<div>
+			<div id="cave">
 				<Cave />
 			</div>
 			<p>
 				{" "}
 				<br /> <br />
 			</p>
-			<div>
+			<div id="metaverse">
 				<h1
 					style={{
 						width: "100%",
@@ -195,6 +196,7 @@ const Home = () => {
 				</h1>
 				<Metaverse />
 			</div>
+			
 			<p>
 				{" "}
 				<br /> <br />
@@ -212,7 +214,7 @@ const Home = () => {
 						opacity: "0.6",
 					}}
 				>
-					<img src="./map.jpg" alt="" style={{ width: "100%", height: "250px", objectFit: "cover" }}></img>{" "}
+					<img src="./map1.gif" alt="" style={{ width: "100%", height: "450px", objectFit: "cover" }}></img>{" "}
 				</div>
 				<Contact />
 			</div>
@@ -224,9 +226,7 @@ const Home = () => {
 				{" "}
 				<br /> <br />
 			</p>
-			<div>
-				<XRProduct />
-			</div>
+			
 		</>
 	);
 };

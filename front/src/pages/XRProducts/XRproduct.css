@@ -8,7 +8,7 @@
 }
 
 .intelligent-store .text {
-  color: white;
+  color: black;
   margin-bottom: 20px;
   width: 75%; /* Adjust as needed */
 }
@@ -44,7 +44,7 @@
 /* Add styling for the h1 elements inside the XRProduct component */
 .intelligent-store .products .text h1 {
   font-size: 24px; /* Adjust the font size as needed */
-  color: white; /* Set the text color */
+  color: black; /* Set the text color */
   
 }
 .product3 {

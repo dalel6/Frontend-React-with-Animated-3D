@@ -1,11 +1,8 @@
 import cities from "../../assets/cities.mp4";
 import "./smart.css";
 
-const SmartCities = () => {
-	const handleClick = () => {
-		// Handle the click event for the button
-		alert("Button clicked!");
-	};
+const Smart = () => {
+	
 	return (
 		<div className="smart">
 			<div className="overlay"></div>
@@ -22,10 +19,10 @@ const SmartCities = () => {
 					<br />
 					offering a comprehensive range of products and solutions.
 				</p>
-				<button onClick={handleClick}>Learn More</button>
+				
 			</div>
 		</div>
 	);
 };
 
-export default SmartCities;
+export default Smart;

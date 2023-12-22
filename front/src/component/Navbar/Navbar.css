@@ -52,7 +52,7 @@ nav a:hover {
 	border-radius: 999px;
 	font-weight: bold;
 	padding: 0.5rem 1rem;
-	margin-left: auto;
+	margin-left: 120px;
 }
 
 /* Media Query for smaller screens */

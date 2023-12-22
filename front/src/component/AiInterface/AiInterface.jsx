@@ -16,9 +16,12 @@ const AiInterface = () => {
 					develop{" "}
 					<span className="blue-text">
 						artificial
-						<br /> intelligence
+						<br /> intelligence  
 					</span>
-					-powered <br /> solutions
+					 <span></span> and  <span className="blue-text">
+					Metaverse
+					</span>
+					-powered solutions
 				</h1>
 
 				<p>

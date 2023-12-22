@@ -6,11 +6,15 @@
     position: relative;
     left: -5px;
   }
+  .intelligent-store {
+    background-color:white;
+  }
   
   .intelligent-store .text {
-    color: white;
+    color: black;
     margin-bottom: 20px;
     width: 75%; /* Adjust as needed */
+  
   }
 
   .product{
@@ -27,7 +31,8 @@
       font-size: 10px;
       padding-left: 20px;
       position: 'relative';
-      left: '20%' 
+      left: '20%' ;
+      
     }
   
   .intelligent-store img {
@@ -38,8 +43,8 @@
   
   /* Add styling for the h1 elements inside the XRProduct component */
   .intelligent-store .products .text h1 {
-    font-size: 24px; /* Adjust the font size as needed */
-    color: white; /* Set the text color */
+    font-size: 24px;
+    color:'black'; /* Adjust the font size as needed */
     
   }
 
