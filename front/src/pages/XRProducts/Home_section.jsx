@@ -3,15 +3,14 @@
 import React from 'react';
 import product from '../../assets/product.mp4';
 import './Home_section.css'
+import NavBar from '../SmartCities/NavBar';
 
 
 const Home_section= () => {
-    const handleClick = () => {
-        // Handle the click event for the button
-        alert('Button clicked!');
-      };
+ 
   return (
     <div className='smart'>
+        <NavBar />
        
         <div className="overlay"></div>
        
@@ -26,7 +25,7 @@ const Home_section= () => {
             <p>Iris Technologies is a cutting-edge software development and consulting company, specializing in a broad range of services.
                 <br /> Our primary focus is on delivering innovative solutions tailored to our clients' unique needs.
              </p>
-            <button onClick={handleClick}>Learn More</button>
+          
                
         </div>
     </div>

@@ -2,7 +2,8 @@ import SecondTitle from "../../component/SecondTitle/SecondTitle";
 import "./Smartcities.css"; // Import your CSS file for styling
 import Smart from "./Smart";
 
-const Smartcities = () => {
+
+const SmartCities = () => {
 	return (
 		<div id="intelligent-store" className="intelligent-store">
 			
@@ -125,6 +126,7 @@ const Smartcities = () => {
 					</div>
 
 				</div>
+				
 			
 			</div>
 		</div>
@@ -132,4 +134,4 @@ const Smartcities = () => {
 	);
 };
 
-export default Smartcities;
+export default SmartCities;

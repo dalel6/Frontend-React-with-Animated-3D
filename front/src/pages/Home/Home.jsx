@@ -6,7 +6,7 @@ import Articles from "../../component/Articles/articles";
 import Cave from "../../component/Cave/Cave";
 import Metaverse from "../../component/Metaverse/Metaverse";
 import Contact from "../../component/Contact/Contact";
-
+import Navbar from "../../component/Navbar/Navbar";
 import { Link } from "react-router-dom";
 import Footer from "../../component/Footer/Footer";
 
@@ -14,6 +14,7 @@ const Home = () => {
 	return (
 		<>
 			<div id="Home">
+			<Navbar />
 				<AiInterface />
 			</div>
 			<div>

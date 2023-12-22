@@ -1,10 +1,12 @@
 import cities from "../../assets/cities.mp4";
+import NavBar from "./NavBar";
 import "./smart.css";
 
 const Smart = () => {
 	
 	return (
-		<div className="smart">
+		<div className="smart" id="smart">
+			<NavBar />
 			<div className="overlay"></div>
 
 			<video src={cities} autoPlay loop muted />

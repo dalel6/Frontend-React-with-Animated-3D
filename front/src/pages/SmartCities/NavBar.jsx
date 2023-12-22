@@ -1,9 +1,9 @@
 
-import "./Navbar.css";
 
-const Navbar = () => {
+
+const NavBar= () => {
 	return (
-		<nav>
+		<nav style={{backgroundColor: 'transparent', position:'absolute'}}>
 			<ul>
 				<a href="/#home" className="logo">
 					<img
@@ -17,7 +17,7 @@ const Navbar = () => {
 				</a>
 
 				<li className="active">
-					<a href="">
+					<a href="/#home">
 						<span>Home</span>
 					</a>
 				</li>
@@ -53,4 +53,4 @@ const Navbar = () => {
 	);
 };
 
-export default Navbar;
+export default NavBar;

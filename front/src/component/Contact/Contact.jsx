@@ -9,7 +9,7 @@ const contactInfo = {
 
 const SplitScreen = () => {
 	return (
-		<div className="contact-container">
+		<div className="contact-container" style={{ backgroundColor: "black", color: 'white'}}>
 		<div className="contact-item">
 			<img src="./logo.png" alt="Logo" style={{width:"40%"}} />
 			

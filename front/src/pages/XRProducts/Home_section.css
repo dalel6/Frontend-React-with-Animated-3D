@@ -13,7 +13,7 @@
     top: 0;
     left: 0;
  
-    opacity:0.6;
+   
   }
  
   .overlay {
@@ -30,7 +30,7 @@
   .smartcities {
     position: relative;
     z-index: 2;
-    top: 40%;
+    top: 50%;
     left: 20%;
     transform: translate(-50%, -50%);
     max-width: 960px; /* Maximum width of the content */

@@ -11,7 +11,7 @@ const App = () => {
 				overflow: "hidden",
 			}}
 		>
-			<Navbar />
+			
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/smart-cities" element={<SmartCities />} />
