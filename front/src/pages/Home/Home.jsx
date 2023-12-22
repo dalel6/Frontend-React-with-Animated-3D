@@ -9,10 +9,37 @@ import Contact from "../../component/Contact/Contact";
 import Navbar from "../../component/Navbar/Navbar";
 import { Link } from "react-router-dom";
 import Footer from "../../component/Footer/Footer";
+import "./Home.css";
 
 const Home = () => {
 	return (
 		<>
+		     <div>
+            <style>
+                {`
+                    ::-webkit-scrollbar {
+						width: 5px;
+						height : 1px;
+					  }
+					  
+					  /* Track */
+					  ::-webkit-scrollbar-track {
+						background: black; 
+					  }
+					   
+					  /* Handle */
+					  ::-webkit-scrollbar-thumb {
+						background: rgb(16, 51, 116); 
+					  }
+					  
+					  /* Handle on hover */
+					  ::-webkit-scrollbar-thumb:hover {
+						background: rgb(16, 51, 116); 
+					  }
+                `}
+            </style>
+            {/* Your component content */}
+        </div>
 			<div id="Home">
 			<Navbar />
 				<AiInterface />

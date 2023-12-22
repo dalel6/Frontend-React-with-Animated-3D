@@ -11,7 +11,7 @@ const SmartCities = () => {
 			<Smart/>
 			<br/>
 			<br/>
-			<p className="container-title" style={{color:"bleu"}}>
+			<p className="container-title" style={{color:"black"}}>
 				<FourthTitle/>
 			</p>
 			<div className="products">
