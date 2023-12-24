@@ -1,44 +1,48 @@
 .contact-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* Assuming white text */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* Assuming white text */
+}
+
+.contact-logo {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: center;
+}
+
+.contact-logo img {
+	width: 300px !important;
+	height: 150px !important;
 }
 
 .contact-item {
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
+	margin-left: 20px;
 }
 
 .contact-item img {
-    margin-right: 10px;
-    width: 8%; /* Space between icon and text */
-}
-
-.contact-item.address {
-    flex-grow: 1; /* Allows the address to take up more space if needed */
-     /* Background color for the address box */
-    padding: 10px; /* Padding inside the address box */
-    margin-left: 20px; /* Space before the address box */
+	margin-right: 10px;
+	width: 8%; /* Space between icon and text */
 }
 
 .contact-item span {
-    white-space: nowrap; /* Prevents the text from wrapping */
+	white-space: nowrap; /* Prevents the text from wrapping */
 }
 
 /* Responsive adjustments if needed */
 @media (max-width: 768px) {
-    .contact-container {
-        flex-direction: column;
-    }
+	.contact-container {
+		flex-direction: column;
+	}
 
-    .contact-item {
-        margin-bottom: 10px; /* Adds space between items when stacked */
-    }
+	.contact-item {
+		margin-bottom: 10px; /* Adds space between items when stacked */
+	}
 
-    .contact-item.address {
-        margin-left: 0; /* Resets margin for mobile */
-    }
+	.contact-item.address {
+		margin-left: 0; /* Resets margin for mobile */
+	}
 }
-
-

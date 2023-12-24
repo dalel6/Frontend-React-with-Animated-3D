@@ -15,12 +15,11 @@
 nav {
 	font-weight: 600;
 	font-size: 1rem;
-	position: fixed;
-	top: 0;
-	background-color: black;
+	top: -30px;
+	height: 100px;
+	overflow: hidden;
 	z-index: 1000;
 	width: 100%;
-	overflow: hidden;
 }
 
 nav ul {

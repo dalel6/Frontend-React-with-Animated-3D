@@ -13,10 +13,9 @@ const Articles = () => {
 					<div className="container-card " style={{ backgroundImage: 'url("./claim.png")' }}>
 						<p className="card-title">Smart Claim</p>
 						<p className="card-description">
-							An AI solution for automating insurance claims, enhancing efficiency and accuracy.
-							<br /> It streamlines the claims process, reducing manual errors and speeding up claim
-							resolutions.
-							<br /> Ideal for insurance companies seeking a more efficient claims handling process.{" "}
+							An AI solution for automating insurance claims, enhancing efficiency and accuracy. It
+							streamlines the claims process, reducing manual errors and speeding up claim resolutions.
+							Ideal for insurance companies seeking a more efficient claims handling process.{" "}
 						</p>
 					</div>
 				</div>
@@ -25,16 +24,15 @@ const Articles = () => {
 					<div className="container-card " style={{ backgroundImage: 'url("./survey.png")' }}>
 						<p className="card-title">Smart Surveyor</p>
 						<p className="card-description">
-							Uses AI for precise surveying in various industries, ensuring data accuracy.
-							<br /> This tool is invaluable for construction, real estate, and land management,
-							<br />
-							providing detailed surveys with minimal human intervention.
+							Uses AI for precise surveying in various industries, ensuring data accuracy. This tool is
+							invaluable for construction, real estate, and land management, providing detailed surveys
+							with minimal human intervention.
 						</p>
 					</div>
 				</div>
 
 				<div className="Card">
-					<div className="container-card "  style={{ backgroundImage: 'url("./garage.png")' }}>
+					<div className="container-card " style={{ backgroundImage: 'url("./garage.png")' }}>
 						<p className="card-title">Smart Garage</p>
 						<p className="card-description">
 							AI-powered tool for automotive maintenance, offering smart diagnostics and service
@@ -55,7 +53,7 @@ const Articles = () => {
 					</div>
 				</div>
 				<div className="Card">
-					<div className="container-card "  style={{ backgroundImage: 'url("./drone.png")' }}>
+					<div className="container-card " style={{ backgroundImage: 'url("./drone.png")' }}>
 						<p className="card-title">Drone Analysis</p>
 						<p className="card-description">
 							Leverages AI for analyzing drone-captured data, applicable in surveillance, mapping, and
@@ -65,7 +63,7 @@ const Articles = () => {
 					</div>
 				</div>
 				<div className="Card">
-					<div className="container-card "  style={{ backgroundImage: 'url("./satellite.png")' }}>
+					<div className="container-card " style={{ backgroundImage: 'url("./satellite.png")' }}>
 						<p className="card-title">Satellite Imaging</p>
 						<p className="card-description">
 							AI-based analysis of satellite images for detailed earth observation and insights. Useful
@@ -86,7 +84,7 @@ const Articles = () => {
 					</div>
 				</div>
 				<div className="Card">
-					<div className="container-card "  style={{ backgroundImage: 'url("./digital.png")' }}>
+					<div className="container-card " style={{ backgroundImage: 'url("./digital.png")' }}>
 						<p className="card-title">Digital Onboarding</p>
 						<p className="card-description">
 							Streamlines the digital onboarding process using AI, improving user experience and

@@ -5,18 +5,16 @@ import product from "../../assets/product.mp4";
 import Articles from "../../component/Articles/articles";
 import Cave from "../../component/Cave/Cave";
 import Metaverse from "../../component/Metaverse/Metaverse";
-import Contact from "../../component/Contact/Contact";
 import Navbar from "../../component/Navbar/Navbar";
 import { Link } from "react-router-dom";
-import Footer from "../../component/Footer/Footer";
 import "./Home.css";
 
 const Home = () => {
 	return (
 		<>
-		     <div>
-            <style>
-                {`
+			<div>
+				<style>
+					{`
                     ::-webkit-scrollbar {
 						width: 5px;
 						height : 1px;
@@ -37,11 +35,11 @@ const Home = () => {
 						background: rgb(16, 51, 116); 
 					  }
                 `}
-            </style>
-            {/* Your component content */}
-        </div>
+				</style>
+				{/* Your component content */}
+			</div>
 			<div id="Home">
-			<Navbar />
+				<Navbar />
 				<AiInterface />
 			</div>
 			<div>
@@ -100,7 +98,7 @@ const Home = () => {
 								>
 									<h1>Smart Cities </h1>
 									<p>
-										Edge AI  is at the forefront of AI and data analytics,
+										Edge AI is at the forefront of AI and data analytics,
 										<br /> offering a comprehensive range of products and solutions.
 									</p>
 								</div>
@@ -165,15 +163,10 @@ const Home = () => {
 										marginLeft: "30px",
 									}}
 								>
-									<h1>
-										Website and Services
-									</h1>
+									<h1>Website and Services</h1>
 									<p>
 										Iris Technologies is a cutting-edge software development
 										<br /> and consulting company, specializing in a broad range of services.
-										<br />
-										Our primary focus is on delivering innovative solutions tailored to our clients
-										unique needs
 									</p>
 								</div>
 								<Link
@@ -181,7 +174,7 @@ const Home = () => {
 									style={{
 										marginLeft: "30px",
 										textDecoration: "none",
-										marginTop:"-20px"
+										marginTop: "-20px",
 									}}
 									onClick={() => {}}
 								>
@@ -225,7 +218,7 @@ const Home = () => {
 				</h1>
 				<Metaverse />
 			</div>
-			
+
 			<p>
 				{" "}
 				<br /> <br />
@@ -234,25 +227,6 @@ const Home = () => {
 				{" "}
 				<br /> <br />
 			</p>
-			<div id="contact">
-				<div
-					className="map"
-					style={{
-						width: "100%",
-						height: "100%",
-						opacity: "0.6",
-					}}
-				>
-					<img src="./map1.gif" alt="" style={{ width: "100%", height: "450px", objectFit: "cover" }}></img>{" "}
-				</div>
-				<Contact />
-				<hr  style={{width:"80%" , color: "teal"}}/>
-			</div>
-			<div>
-				<Footer/>
-			</div>
-		
-			
 		</>
 	);
 };

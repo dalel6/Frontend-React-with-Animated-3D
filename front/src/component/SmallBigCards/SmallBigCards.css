@@ -33,3 +33,36 @@
 	border-radius: 25px;
 	overflow: hidden;
 }
+
+@media only screen and (max-width: 768px) {
+	.smallBigCardContainer {
+		height: 300px;
+	}
+
+	.smallCard {
+		width: 40%;
+		height: 35%;
+		border-radius: 10px;
+	}
+
+	.smallCard.left {
+		left: 50%;
+		top: 10%;
+	}
+
+	.smallCard.right {
+		left: 50%;
+		top: 10%;
+	}
+
+	.bigCard {
+		width: 80%;
+		height: 60%;
+		font-size: 12px;
+		bottom: 0;
+	}
+
+	.bigCard h1 {
+		font-size: 20px;
+	}
+}
