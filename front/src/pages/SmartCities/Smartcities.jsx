@@ -14,7 +14,7 @@ const SmartCities = () => {
 			<div className="products">
 				<div className="product">
 					<img src="./AI.jpg" alt="" />
-					<div className="text" style={{ position: "relative", left: "10%", color: "black" }}>
+					<div className="text" style={{ position: "relative", marginLeft: "10%", color: "black" }}>
 						<h1 style={{ color: "black" }}>1. AI and Deep Learning</h1>
 						<p>
 							Specializing in AI and deep learning technologies,
@@ -29,7 +29,7 @@ const SmartCities = () => {
 					</div>
 				</div>
 				<div className="product">
-					<div className="text" style={{ position: "relative", left: "10%" }}>
+					<div className="text" style={{ position: "relative", marginLeft: "10%" }}>
 						<h1 style={{ color: "black" }}>2. Embedded Solutions</h1>
 						<p>
 							Offering a wide range of embedded solutions,
@@ -47,7 +47,7 @@ const SmartCities = () => {
 				</div>
 				<div className="product">
 					<img src="./visualution.jpg" alt="" />
-					<div className="text" style={{ position: "relative", left: "10%" }}>
+					<div className="text" style={{ position: "relative", marginLeft: "10%" }}>
 						<h1 style={{ color: "black" }}>3. Professional Visualization</h1>
 						<p>
 							{" "}
@@ -61,7 +61,7 @@ const SmartCities = () => {
 					</div>
 				</div>
 				<div className="product">
-					<div className="text" style={{ position: "relative", left: "10%" }}>
+					<div className="text" style={{ position: "relative", marginLeft: "10%" }}>
 						<h1 style={{ color: "black" }}>4. Data Center</h1>
 						<p>
 							They offer comprehensive data center solutions,
@@ -78,7 +78,7 @@ const SmartCities = () => {
 
 				<div className="product">
 					<img src="./network.jpg" alt="" />
-					<div className="text" style={{ position: "relative", left: "10%" }}>
+					<div className="text" style={{ position: "relative", marginLeft: "10%" }}>
 						<h1 style={{ color: "black" }}>5. Networking and Connectivity</h1>
 						<p>
 							Edge AI's networking and connectivity solutions
@@ -92,7 +92,7 @@ const SmartCities = () => {
 					</div>
 				</div>
 				<div className="product">
-					<div className="text" style={{ position: "relative", left: "10%" }}>
+					<div className="text" style={{ position: "relative", marginLeft: "10%" }}>
 						<h1 style={{ color: "black" }}>6. Servers and Workstations</h1>
 						<p>
 							The company also provides a range of servers and workstations,
@@ -109,7 +109,7 @@ const SmartCities = () => {
 				</div>
 				<div className="product">
 					<img src="./accessoire.jpg" alt="" />
-					<div className="text" style={{ position: "relative", left: "10%" }}>
+					<div className="text" style={{ position: "relative", marginLeft: "10%" }}>
 						<h1 style={{ color: "black" }}>7. Accessories and Components</h1>
 						<p>
 							{" "}
