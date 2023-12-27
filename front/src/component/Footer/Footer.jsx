@@ -36,8 +36,8 @@ const Footer = () => {
 				</div>
 			</footer>
 			<div className="copyright">
-				Copyright © 2023 Littérature.com.
-				<br /> All rights reserved.
+				Copyright © 2023 All rights reserved.
+				
 			</div>
 		</>
 	);
