@@ -138,11 +138,11 @@ body {
 
 .card__picture {
 	margin-bottom: 12px;
-	filter: invert(1);
+	//filter: invert(1);
 
 	img {
 		display: block;
-
+color: black;
 		height: 100px;
 		width: 120%;
 	}
