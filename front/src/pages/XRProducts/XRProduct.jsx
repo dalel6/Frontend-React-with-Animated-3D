@@ -70,7 +70,7 @@ const XRProduct = () => {
 							<br />
 							<br /> content marketing, social media management, and PPC campaigns.
 							<br />
-							<br /> Our strategic approach ensures that our clients' brands
+							<br /> Our strategic approach ensures that our clients brands
 							<br />
 							<br /> gain maximum visibility and engagement online.
 						</p>
@@ -121,7 +121,7 @@ const XRProduct = () => {
 							<br />
 							We create visually compelling designs that resonate with target audiences
 							<br />
-							<br /> and reflect our clients' brand values.
+							<br /> and reflect our clients brand values.
 						</p>
 					</div>
 				</div>

@@ -81,7 +81,7 @@ const SmartCities = () => {
 					<div className="text" style={{ position: "relative", marginLeft: "10%" }}>
 						<h1 style={{ color: "black" }}>5. Networking and Connectivity</h1>
 						<p>
-							Edge AI's networking and connectivity solutions
+							Edge AI networking and connectivity solutions
 							<br />
 							<br />
 							include advanced network interface cards, switches, and wireless communication devices.
