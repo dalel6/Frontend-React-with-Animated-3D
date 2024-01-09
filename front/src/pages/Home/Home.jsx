@@ -8,6 +8,7 @@ import Metaverse from "../../component/Metaverse/Metaverse";
 import Navbar from "../../component/Navbar/Navbar";
 import { Link } from "react-router-dom";
 import "./Home.css";
+import Partners from "../../component/partners/partners";
 
 const Home = () => {
 	return (
@@ -217,6 +218,20 @@ const Home = () => {
 					METAVERSE AND AUGMENTED REALITY
 				</h1>
 				<Metaverse />
+			</div>
+			<div id="partners">
+			<h1
+					style={{
+						width: "100%",
+						backgroundColor: "bleu",
+						textAlign: "center",
+						color: "#646cff",
+					}}
+				>
+					{" "}
+					OUR PARTNERS
+				</h1>
+				<Partners />
 			</div>
 
 			<p>
