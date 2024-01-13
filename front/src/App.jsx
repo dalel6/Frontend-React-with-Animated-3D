@@ -8,6 +8,7 @@ import { useEffect } from "react";
 import Contact from "./component/Contact/Contact";
 import Footer from "./component/Footer/Footer";
 
+
 const App = () => {
 	const location = useLocation(); // Using the useLocation hook
 
