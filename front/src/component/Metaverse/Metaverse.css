@@ -134,7 +134,17 @@ body {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-}
+  }
+  
+  @media screen and (max-width: 600px) {
+	.card__frame {
+	  /* Only include the styles you want to change for smaller screens */
+	  justify-content: normal; /* Example: Change justify-content for smaller screens */
+	}
+  }
+  
+  /* Other styles (unchanged) */
+  
 
 .card__picture {
 	margin-bottom: 12px;

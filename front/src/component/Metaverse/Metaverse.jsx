@@ -71,9 +71,20 @@ const Card = ({ image, title, description }) => {
 		<li className="card cards__item">
 			<div className="card__frame">
 				<div className="card__picture">
-					<img src={image} alt={title} width="120" />
+					<img src={image} alt={title} width="100" style = {{position: "relative",
+    top: "20px",
+    flex: "auto"}}
+    
+ />
+ <p>
+				{" "}
+			
+			</p>
 				</div>
-				<h2 className="card__title">{title}</h2>
+				<h2 className="card__title">{title}<p>
+				{" "}
+				<br /> 
+			</p></h2>
 			</div>
 			<div className="card__overlay"></div>
 			<div className="card__content">

@@ -10,8 +10,7 @@ const Smart = () => {
 			<div className="nav"></div>
 			<div className="smartcities">
 				<h1>
-					Iris Technologies -
-					<br /> Smart Cities
+					 Smart Cities
 				</h1>
 				<p>
 					Edge AI is at the forefront of AI and data analytics,

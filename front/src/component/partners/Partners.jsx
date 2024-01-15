@@ -19,7 +19,7 @@ const Partners = () => {
             </div>
             <div >
               <div className="square-holder">
-                <img alt="" src="dezzex.jpg" style={{width:'90%'}} />
+                <img alt="" src="dezzex.jpg" style={{width:'100%'}} />
               </div>
             </div>
             
