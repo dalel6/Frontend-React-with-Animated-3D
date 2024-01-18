@@ -12,7 +12,7 @@
     height:150px;
     border-radius: 25px;
   }
-  @media (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     .square-holder {
       padding:10px;
       border: transparent;
@@ -29,13 +29,13 @@
     }
   .row {
     display: grid;
-    
+
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 15px;
   }
-  @media (max-width: 600px) {
+  @media only screen and (max-width: 768px)  {
     .row {
-      display: block;
+      /*display: block;*/
     }
   }
   .square-holder img {
@@ -44,7 +44,7 @@
     transition: all 0.1s;
    
   }
-  @media (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     .square-holder img {
       width: 100%; 
       filter: drop-shadow(2px 4px 6px black);/* Increase image width to full container width */
