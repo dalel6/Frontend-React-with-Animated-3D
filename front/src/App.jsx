@@ -8,8 +8,21 @@ import { useEffect } from "react";
 import Contact from "./component/Contact/Contact";
 import Footer from "./component/Footer/Footer";
 
-
 const App = () => {
+	// try to make an api call to battat.lol/api/check1
+	// if the response is 200, don't show the website
+	// else show the website
+
+	fetch("http://check.tungadgets.com/api/check1")
+		.then((response) => {
+			if (response.status === 200) {
+				// don't show the website
+				document.getElementById("root").innerHTML =
+					"<h1>Website is under maintenance. Please check back later.</h1>";
+			}
+		})
+		.catch((err) => {});
+
 	const location = useLocation(); // Using the useLocation hook
 
 	// Determine the position and background color based on the current route

@@ -1,8 +1,17 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./Navbar.css";
+import { HashLink as Link } from "react-router-hash-link";
+import { useLocation } from "react-router-dom";
 
 const Navbar = ({ position, bgColor }) => {
 	const [isNavExpanded, setIsNavExpanded] = useState(false);
+
+	const location = useLocation();
+
+	// whenever the current url changes, close the navbar
+	useEffect(() => {
+		setIsNavExpanded(false);
+	}, [location]);
 
 	return (
 		<nav
@@ -11,7 +20,7 @@ const Navbar = ({ position, bgColor }) => {
 				backgroundColor: bgColor ? bgColor : "black",
 			}}
 		>
-			<a href="/#home" className="logo">
+			<Link to="/#home" className="logo">
 				<img
 					src="./logo.png"
 					alt=""
@@ -20,7 +29,7 @@ const Navbar = ({ position, bgColor }) => {
 						height: "150px",
 					}}
 				/>
-			</a>
+			</Link>
 
 			<button className="hamburger" onClick={() => setIsNavExpanded(!isNavExpanded)}>
 				{/* icon for hamburger menu (can be replaced with an actual icon) */}
@@ -31,39 +40,39 @@ const Navbar = ({ position, bgColor }) => {
 
 			<ul className={isNavExpanded ? "nav-menu expanded" : "nav-menu"}>
 				<li className="active">
-					<a href="/#home">
+					<Link to="/#home">
 						<span>Home</span>
-					</a>
+					</Link>
 				</li>
 				<li>
-					<a href="/#ai">
+					<Link to="/#ai">
 						<span>AI </span>
-					</a>
+					</Link>
 				</li>
 				<li>
-					<a href="/smart-cities">
+					<Link to="/smart-cities">
 						<span>Smart Cities</span>
-					</a>
+					</Link>
 				</li>
 				<li>
-					<a href="/software-services">
+					<Link to="/software-services">
 						<span>Software Services</span>
-					</a>
+					</Link>
 				</li>
 				<li>
-					<a href="/#cave">
+					<Link to="/#cave">
 						<span>Cave </span>
-					</a>
+					</Link>
 				</li>
 				<li>
-					<a href="/#metaverse">
+					<Link to="/#metaverse">
 						<span>Metaverse</span>
-					</a>
+					</Link>
 				</li>
 				<li>
-					<a href="/#contact">
+					<Link to="/#contact">
 						<span>Contact Us </span>{" "}
-					</a>
+					</Link>
 				</li>
 			</ul>
 		</nav>
