@@ -1,5 +1,7 @@
 import "./footer.css";
 
+import { HashLink as Link } from 'react-router-hash-link';
+
 const Footer = () => {
 	return (
 		<>
@@ -13,9 +15,9 @@ const Footer = () => {
 				</div>
 
 				<div className="footer-column">
-					<h3>PRODUCTS</h3>
-					<a href="/#ai">AI </a>
-					<a href="/#metaverse">Metaverse</a>
+                    <h3>PRODUCTS</h3>
+                    <Link to="/#ai">AI </Link>
+                    <Link to="/#metaverse">Metaverse</Link>
 					<a>Cave</a>
 					<a>Software Services</a>
 				</div>
